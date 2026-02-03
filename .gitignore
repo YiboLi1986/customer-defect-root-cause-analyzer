@@ -1,0 +1,70 @@
+# ========================
+# OS / Editor temporary files
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# ========================
+# Python cache / build files
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# ========================
+# Virtual environments
+# ========================
+.venv/
+env/
+venv/
+ENV/
+
+# ========================
+# Environment variables
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# IDE settings
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# Logs / debug
+# ========================
+*.log
+
+# ========================
+# Project-generated outputs
+# ========================
+backend/src/output/
+
+# ========================
+# SonarQube / coverage
+# ========================
+.sonar/
+coverage/
+*.coverage
+*.coveragexml
+
+# ========================
+# Excel temp files
+# ========================
+~$*.xls*
+
+# ========================
+# Local secrets (DO NOT COMMIT)
+# ========================
+backend/src/config/*local.json
+backend/src/config/secrets*.json
+!backend/src/config/*example.json

@@ -1,0 +1,6 @@
+Analyze the following defect case and return the JSON output required by the system instructions.
+
+Case JSON:
+{case_json}
+
+Return JSON only with keys: root_cause, root_cause_type, root_cause_subtype.
