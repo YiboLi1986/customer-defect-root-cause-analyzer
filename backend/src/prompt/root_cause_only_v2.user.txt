@@ -1,0 +1,11 @@
+Analyze the following defect case and return the JSON output required by the system instructions.
+
+Input notes:
+- Use ONLY repro_steps, fields, and evidence.notes_used.
+- evidence.notes_used contains investigation notes from Assigned / Investigating states.
+- If evidence is insufficient, return an empty string.
+
+Case JSON:
+{case_json}
+
+Return JSON only with key: root_cause.
