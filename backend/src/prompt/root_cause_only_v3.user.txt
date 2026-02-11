@@ -1,0 +1,12 @@
+Analyze the following defect case and return the JSON output required by the system instructions.
+
+Input rules:
+- Use ONLY repro_steps, fields, and evidence.notes_used.
+- evidence.notes_used contains investigation notes from Assigned / Investigating states only.
+- If evidence is insufficient, return an empty string "".
+- V3 metadata fields (e.g., Product Name/Version, CodeChange, Software Configuration Management) are provided as context only.
+
+Case JSON:
+{case_json}
+
+Return JSON only with key: root_cause.
